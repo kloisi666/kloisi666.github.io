@@ -22,7 +22,7 @@
 <body class="bg-rose-50/40 text-slate-900 antialiased overflow-x-hidden">
 
     <!-- 1. ПЕРВЫЙ ЭКРАН -->
-    <section class="relative min-h-screen flex flex-col justify-between bg-gradient-to-br from-rose-100/70 via-white to-blue-50/80 px-4 sm:px-6 lg:px-8 py-6 overflow-hidden">
+    <section class="relative min-h-screen flex flex-col justify-between bg-gradient-to-br from-rose-100/70 via-white to-pink-50/80 px-4 sm:px-6 lg:px-8 py-6 overflow-hidden">
         
         <!-- Декоративные розовые островки на фоне -->
         <div class="absolute top-12 left-10 w-72 h-72 bg-pink-300/30 rounded-full blur-3xl -z-10 pointer-events-none"></div>
@@ -67,24 +67,34 @@
         </div>
     </section>
 
-    <!-- 2. КАК ЭТО РАБОТАЕТ -->
+    <!-- 2. ДЛЯ КОГО (теперь идет вторым блоком) -->
+    <section class="py-20 bg-gradient-to-br from-rose-950 via-rose-900 to-pink-950 text-white px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div class="max-w-3xl mx-auto text-center relative z-10">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-rose-200">Для кого создан проект</h2>
+            <p class="text-lg sm:text-xl text-rose-50/90 leading-relaxed bg-white/5 backdrop-blur-sm p-6 sm:p-8 rounded-2xl border border-rose-300/20">
+                Для директора и завуча школы, которым нужно оцифровать уроки (голос учителя и материалы с интерактивной доски) и дать ученикам понятные конспекты без перенастройки школьных ПК. В классах установлен запрет на скачивание сторонних программ, поэтому устройство запускается без установки драйверов, не требует участия системного администратора и открыто сигнализирует о записи световым индикатором.
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. КАК ЭТО РАБОТАЕТ (теперь идет третьим блоком, все карточки малиновые) -->
     <section class="py-20 bg-white px-4 sm:px-6 lg:px-8 border-t border-rose-100">
         <div class="max-w-5xl mx-auto">
             <h2 class="text-2xl sm:text-3xl font-bold text-center text-slate-900 mb-12">Как это работает в школе</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Островок 1 (Розовый) -->
+                <!-- Островок 1 (Малиновый) -->
                 <div class="bg-gradient-to-b from-rose-50/90 to-pink-50/40 p-6 sm:p-8 rounded-2xl border border-rose-200/80 shadow-sm hover:shadow-md transition">
                     <div class="w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-600 text-white font-bold text-xl rounded-xl shadow-md shadow-rose-500/20 flex items-center justify-center mb-6">1</div>
                     <h3 class="font-bold text-lg text-slate-900 mb-2">Выдача</h3>
                     <p class="text-slate-600 leading-relaxed">Администрация школы выдает учителям настроенные флешки-диктофоны перед началом четверти.</p>
                 </div>
-                <!-- Островок 2 (Сиренево-синий) -->
-                <div class="bg-gradient-to-b from-indigo-50/90 to-blue-50/40 p-6 sm:p-8 rounded-2xl border border-indigo-200/80 shadow-sm hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-gradient-to-br from-indigo-500 to-blue-600 text-white font-bold text-xl rounded-xl shadow-md shadow-indigo-500/20 flex items-center justify-center mb-6">2</div>
+                <!-- Островок 2 (Малиновый) -->
+                <div class="bg-gradient-to-b from-rose-50/90 to-pink-50/40 p-6 sm:p-8 rounded-2xl border border-rose-200/80 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-600 text-white font-bold text-xl rounded-xl shadow-md shadow-rose-500/20 flex items-center justify-center mb-6">2</div>
                     <h3 class="font-bold text-lg text-slate-900 mb-2">Захват экрана и речи</h3>
                     <p class="text-slate-600 leading-relaxed">Учитель вставляет устройство в школьный ПК и нажимает кнопку — в фоне пишется голос и снимки экрана.</p>
                 </div>
-                <!-- Островок 3 (Розовый) -->
+                <!-- Островок 3 (Малиновый) -->
                 <div class="bg-gradient-to-b from-rose-50/90 to-pink-50/40 p-6 sm:p-8 rounded-2xl border border-rose-200/80 shadow-sm hover:shadow-md transition">
                     <div class="w-12 h-12 bg-gradient-to-br from-rose-500 to-pink-600 text-white font-bold text-xl rounded-xl shadow-md shadow-rose-500/20 flex items-center justify-center mb-6">3</div>
                     <h3 class="font-bold text-lg text-slate-900 mb-2">Готовый материал</h3>
@@ -94,43 +104,35 @@
         </div>
     </section>
 
-    <!-- 3. ДЛЯ КОГО -->
-    <section class="py-20 bg-gradient-to-br from-slate-900 via-rose-950 to-indigo-950 text-white px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-        <div class="max-w-3xl mx-auto text-center relative z-10">
-            <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-rose-200">Для кого создан проект</h2>
-            <p class="text-lg sm:text-xl text-rose-50/90 leading-relaxed bg-white/5 backdrop-blur-sm p-6 sm:p-8 rounded-2xl border border-rose-300/20">
-                Для директора и завуча школы, которым нужно оцифровать уроки (голос учителя и материалы с интерактивной доски) и дать ученикам понятные конспекты без перенастройки школьных ПК. В классах установлен запрет на скачивание сторонних программ, поэтому устройство запускается без установки драйверов, не требует участия системного администратора и открыто сигнализирует о записи световым индикатором.
-            </p>
-        </div>
-    </section>
-
-    <!-- 4. СКОЛЬКО СТОИТ -->
-    <section class="py-20 bg-white px-4 sm:px-6 lg:px-8">
+    <!-- 4. СКОЛЬКО СТОИТ (полностью в малиновых тонах) -->
+    <section class="py-20 bg-white px-4 sm:px-6 lg:px-8 border-t border-rose-100">
         <div class="max-w-3xl mx-auto">
             <h2 class="text-2xl sm:text-3xl font-bold text-center text-slate-900 mb-10">Сколько стоит</h2>
-            <div class="bg-gradient-to-br from-rose-50 via-pink-50/70 to-indigo-50 border border-rose-200 rounded-3xl p-6 sm:p-10 shadow-sm">
+            <div class="bg-gradient-to-br from-rose-50 via-pink-50/80 to-rose-100/60 border border-rose-200 rounded-3xl p-6 sm:p-10 shadow-sm">
                 
-                <!-- Поле выбора количества устройств -->
-                <div class="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8 bg-white/90 backdrop-blur-sm py-3 px-6 rounded-2xl border border-rose-200/80 max-w-md mx-auto shadow-sm">
-                    <label for="deviceCount" class="text-sm font-semibold text-slate-700">Количество устройств:</label>
+                <!-- Поле выбора количества устройств (малиновое оформление) -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8 bg-rose-100/70 backdrop-blur-sm py-3.5 px-6 rounded-2xl border-2 border-rose-300 max-w-md mx-auto shadow-sm">
+                    <label for="deviceCount" class="text-sm font-bold text-rose-900">Количество устройств:</label>
                     <div class="flex items-center space-x-1.5">
-                        <button type="button" onclick="changeCount(-1)" class="w-9 h-9 rounded-xl bg-rose-100 hover:bg-rose-200 text-rose-800 font-bold flex items-center justify-center transition cursor-pointer">−</button>
-                        <input type="number" id="deviceCount" value="20" min="1" max="999" class="w-20 text-center font-extrabold text-lg text-slate-900 bg-rose-50/50 border-2 border-rose-300 rounded-xl py-1 focus:outline-none focus:ring-2 focus:ring-rose-500">
-                        <button type="button" onclick="changeCount(1)" class="w-9 h-9 rounded-xl bg-rose-100 hover:bg-rose-200 text-rose-800 font-bold flex items-center justify-center transition cursor-pointer">+</button>
+                        <button type="button" onclick="changeCount(-1)" class="w-9 h-9 rounded-xl bg-gradient-to-br from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold flex items-center justify-center shadow-sm transition cursor-pointer">−</button>
+                        <input type="number" id="deviceCount" value="20" min="1" max="999" class="w-20 text-center font-extrabold text-lg text-rose-950 bg-white border-2 border-rose-400 rounded-xl py-1 focus:outline-none focus:ring-2 focus:ring-rose-600">
+                        <button type="button" onclick="changeCount(1)" class="w-9 h-9 rounded-xl bg-gradient-to-br from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold flex items-center justify-center shadow-sm transition cursor-pointer">+</button>
                     </div>
                 </div>
 
                 <p class="text-center text-lg sm:text-xl font-medium text-slate-800 mb-8">
-                    Школа по договору платит <span class="font-bold text-rose-700 bg-rose-100/80 px-2 py-0.5 rounded-md"><span id="textTotalHw">130 000</span> рублей</span> единоразово за комплект из <span id="textCount1">20</span> физических устройств и <span class="font-bold text-indigo-700 bg-indigo-100/80 px-2 py-0.5 rounded-md"><span id="textTotalSub">10 000</span> рублей</span> ежемесячно за облачную лицензию нейросетей для расшифровки речи и структурирования конспектов.
+                    Школа по договору платит <span class="font-bold text-rose-700 bg-rose-200/70 px-2 py-0.5 rounded-md"><span id="textTotalHw">130 000</span> рублей</span> единоразово за комплект из <span id="textCount1" class="font-bold text-rose-800">20</span> физических устройств и <span class="font-bold text-rose-700 bg-rose-200/70 px-2 py-0.5 rounded-md"><span id="textTotalSub">10 000</span> рублей</span> ежемесячно за облачную лицензию нейросетей для расшифровки речи и структурирования конспектов.
                 </p>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 border-t border-rose-200/60">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 border-t border-rose-200/80">
+                    <!-- Первая карточка цены (Малиновая) -->
                     <div class="bg-white p-6 rounded-2xl border-2 border-rose-200 text-center shadow-sm">
                         <div class="text-xs font-bold uppercase tracking-wider text-rose-500 mb-1">Закупка оборудования</div>
                         <div class="text-3xl font-extrabold text-slate-900 mb-1"><span id="cardTotalHw">130 000</span> ₽</div>
                         <div class="text-sm text-slate-600">Комплект из <span id="cardCount1">20</span> устройств (6 500 ₽ за шт.)</div>
                     </div>
-                    <div class="bg-white p-6 rounded-2xl border-2 border-indigo-200 text-center shadow-sm">
-                        <div class="text-xs font-bold uppercase tracking-wider text-indigo-500 mb-1">Подписка на нейросети</div>
+                    <!-- Вторая карточка цены (Малиновая) -->
+                    <div class="bg-white p-6 rounded-2xl border-2 border-rose-200 text-center shadow-sm">
+                        <div class="text-xs font-bold uppercase tracking-wider text-rose-500 mb-1">Подписка на нейросети</div>
                         <div class="text-3xl font-extrabold text-slate-900 mb-1"><span id="cardTotalSub">10 000</span> ₽ / мес</div>
                         <div class="text-sm text-slate-600">Облачная обработка аудио и экрана для <span id="cardCount2">20</span> учителей</div>
                     </div>
@@ -165,7 +167,7 @@
         </div>
     </section>
 
-    <footer class="bg-slate-950 text-rose-200/60 py-6 text-center text-sm">
+    <footer class="bg-rose-950 text-rose-200/70 py-6 text-center text-sm">
         <p>© Программно-аппаратный комплекс «Малинки AI» для образовательных учреждений</p>
     </footer>
 
